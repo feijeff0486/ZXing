@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path name="root" path="."/> 
+    <!--内部内存卡根目录:context.getFilesDir()-->
+    <files-path name="files" path="."/> 
+    <!--应用默认缓存根目录:context.getCacheDir()-->
+    <cache-path name="cache" path="."/> 
+
+    <!--外部内存卡根目录:Environment.getExternalStorageDirectory()-->
+    <external-path name="external_root" path="/"/>
+    <!--外部内存卡根目录下的APP公共目录:context.getExternalFilesDirs()-->
+    <external-files-path name="external_files" path="/"/>
+    <!--外部内存卡根目录下的APP缓存目录:context.getExternalCacheDirs()-->
+    <external-cache-path name="external_cache" path="/"/>
+</paths>
